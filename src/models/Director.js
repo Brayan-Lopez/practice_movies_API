@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../utils/connection');
 
 const Director = sequelize.define('director', {
-    fistName: {
+    firstName: {
         type: DataTypes.STRING(50),
         allowNull: false
     },
